@@ -1,0 +1,139 @@
+html{
+    font-size: 62.5%;
+  }
+body{
+    margin:0 auto;
+    padding: 0;
+   
+}
+.header{
+    background: white;
+border: 1px solid #ddd;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+width: 100%;
+position: fixed;
+z-index: 10;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.navbar-brand{
+
+    font-size: 2.3rem;
+}
+
+.banner{
+    display: flex;
+    flex-direction: clamp(column,370px,row);
+    justify-content:center;
+    align-items: center;
+min-height: 91.8vh;
+background: rgb(236, 235, 247);
+}
+.banner-containt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+  color: #07028a;
+}
+.banner-img{
+    width: 40%;
+}
+img{
+    width: 100%;
+    height: 100%;  
+}
+.form{
+    display: flex;
+    
+    flex-direction: column;
+
+}
+.form input{
+    outline: none;
+}
+.sidebar{
+    border: 2px solid #ddd;
+    height: 100vh;
+    width:clamp(20rem,50vw,35rem );
+    position:fixed;
+    z-index: 2;
+    padding: 2%;
+    padding-top:clamp(11%,370px,2% );
+    
+}
+.sidebar-option-list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    height: 80%;
+   
+}
+a{
+    text-decoration: none;
+    color: #555353;
+}
+a:hover{
+    text-decoration: none;
+}
+.sidebar-link{
+    font-size:2rem;
+    border-bottom: 1px solid #ddd;
+    padding: 3% 2%;
+}
+.job-post{
+    margin-left:clamp(20rem,50vw,35rem);
+    padding: clamp(2%,370px,4%);
+    padding-top: 6%;
+}
+.job-del-form{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.j-pst-in{
+    font-size: 20px;
+    color: #555353;
+    outline: none;
+    resize: none;
+   
+}
+.job-del-form label{
+    font-size: 18px;
+    color: #a4a2a2;
+    margin: 2%;
+}
+.common-heading{
+    color: #434242;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.common-btn{
+    font-size: 18px;
+    box-sizing: border-box;
+    border:.2rem solid #a4a2a2;
+    font-family: 'Inter', sans-serif;
+    color: #434242;
+    text-transform: capitalize;
+    padding: .8rem;
+    border-radius: .4rem;
+    width: clamp(5rem,370px,15rem);
+cursor: pointer;
+justify-self:center;
+
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 4rem;
+}
